@@ -1,0 +1,10 @@
+{
+    "User1": {
+        "first_name": "Lucas",
+        "last_name": "Lyu",
+        "student_id": "213141",
+        "email": "lyuchongkai@gmail.com",
+        "password": "123456",
+        "role": "user"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "User1": {
+        "email": "2993798118@qq.com",
+        "path": "../server/club_members/superadmins/superadmin_info.json"
+    },
+    "User2": {
+        "email": "chunbowang6@gmail.com",
+        "path": "../server/club_members/superadmins/superadmin_info.json"
+    },
+    "User3": {
+        "email": "chongkailyu@gmail.com",
+        "path": "../server/club_members/admins/admins_info.json"
+    },
+    "User4": {
+        "email": "lyuchongkai@gmail.com",
+        "path": "../server/club_members/users/users_info.json"
+    }
+}

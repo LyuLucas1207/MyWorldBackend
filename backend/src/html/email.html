@@ -1,0 +1,74 @@
+<!-- 文件位置: ./html/email.html -->
+<!-- 文件路径：src/html/email.html -->
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        h1 {
+            color: #6a329f;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+
+
+        img {
+            max-width: 70%;
+            height: auto;
+            margin-top: 20px;
+
+        }
+
+        .codeContainer {
+            min-width: 70%;
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f4f4f9;
+        }
+
+        .code {
+            margin-top: 10px;
+            padding: 5px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #e63946;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #421b66;
+        }
+    </style>
+</head>
+
+<body>
+    <h>您的注册验证码:Your Registration Code</h>
+    <p>请输入以下验证码以完成注册过程:Please enter the following code to complete the registration process:</p>
+    <div class="codeContainer">
+        <div class="title">验证码:Verification Code</div>
+        <div class="code">{{code}}</div>
+    </div>
+    <img src="{{imagePath}}" alt="Promotional Image">
+    <p>此验证码5分钟内有效。:Note that this code is valid for 5 minutes.</p>
+</body>
+
+</html>

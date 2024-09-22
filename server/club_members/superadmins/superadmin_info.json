@@ -1,0 +1,18 @@
+{
+    "User1": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "student_id": "123456789",
+        "email": "2993798118@qq.com",
+        "password": "123456",
+        "role": "superadmin"
+    },
+    "User2": {
+        "first_name": "Dennis",
+        "last_name": "Wang",
+        "student_id": "12317228",
+        "email": "chunbowang6@gmail.com",
+        "password": "Admin147",
+        "role": "superadmin"
+    }
+}
